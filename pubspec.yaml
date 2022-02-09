@@ -1,0 +1,39 @@
+name: order_food
+description: A new Flutter project.
+
+# publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.0.1
+  geolocator: ^8.0.1
+  image_picker:
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3
+  json_serializable: ^4.1.4
+
+dev_dependencies:
+  build_runner: ^2.1.2
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/burger.jpeg
+   - assets/images/pizza.jpeg
+   - assets/images/cofee.jpeg
+   - assets/images/beer.jpeg
+   - assets/images/junk.jpeg
+   - assets/images/verCofee.jpeg
+   - assets/images/food.jpeg
+   - assets/images/profile.jpeg
+   
